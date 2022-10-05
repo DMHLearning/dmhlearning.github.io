@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg width='1728' height='1028' viewBox='0 0 1728 1028' fill='none' xmlns='http://www.w3.org/2000/svg'>
+<g filter='url(#filter0_d_330_434)'>
+<path d='M-10 6.99998C-10 4.79084 -8.20914 3 -6 3H1738C1740.21 3 1742 4.79086 1742 7V1013C1742 1015.21 1740.21 1017 1738 1017H-6.00002C-8.20915 1017 -10 1015.21 -10 1013V6.99998Z' fill='#459874'/>
+<path d='M-10 6.99998C-10 4.79084 -8.20914 3 -6 3H1738C1740.21 3 1742 4.79086 1742 7V1013C1742 1015.21 1740.21 1017 1738 1017H-6.00002C-8.20915 1017 -10 1015.21 -10 1013V6.99998Z' stroke='#90F6B7' stroke-width='6'/>
+</g>
+<defs>
+<filter id='filter0_d_330_434' x='-17' y='0' width='1766' height='1028' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'>
+<feFlood flood-opacity='0' result='BackgroundImageFix'/>
+<feColorMatrix in='SourceAlpha' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/>
+<feOffset dy='4'/>
+<feGaussianBlur stdDeviation='2'/>
+<feComposite in2='hardAlpha' operator='out'/>
+<feColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0'/>
+<feBlend mode='normal' in2='BackgroundImageFix' result='effect1_dropShadow_330_434'/>
+<feBlend mode='normal' in='SourceGraphic' in2='effect1_dropShadow_330_434' result='shape'/>
+</filter>
+</defs>
+</svg>
