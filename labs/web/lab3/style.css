@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100;200;300;400;500;600;800&display=swap');
+
+body {
+    background: #f5f5f5;
+    color: #000000;
+    font-family: Arial, Times New Roman;
+    font-size: 16px;
+}
+
+header {
+    position: absolute;
+    width: 1920px;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+    background: #FFB44E
+}
+
+header2 {
+    position: absolute;
+    width: 1920px;
+    height: 54px;
+    left: 0px;
+    top: 120px;
+    background: #C2CEFC;
+}
+
+nav {
+    background: #D9D9D9;
+    position: absolute;
+    width: 418.18px;
+    height: 775.2px;
+    left: 0px;
+    top: 174.02px;
+}
+
+aside {
+    background: #E9E7E7;
+    display: inline-block;
+    width: 10%;
+    height: 400px;
+}
+
+#content {
+    position: absolute;
+    width: 1156.56px;
+    height: 88.59px;
+    left: 505px;
+    top: 786.91px;
+    font-family: 'Bitter', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+footer {
+    background: #28376F;
+    position: absolute;
+    width: 1920px;
+    height: 131px;
+    left: 0px;
+    top: 949px;
+}
+
+text_header {
+    position: absolute;
+    width: 998.17px;
+    height: 48.52px;
+    left: 193.2px;
+    top: 33.75px;
+    font-family: 'Bitter', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FFFFFF;
+}
+
+list1 {
+    position: absolute;
+    width: 70.65px;
+    height: 29.53px;
+    left: 46.86px;
+    top: 12px;
+    font-family: 'Bitter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+
+list2 {
+    position: absolute;
+    width: 188.01px;
+    height: 29.53px;
+    left: 242px;
+    top: 12px;
+    font-family: 'Bitter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+
+list3 {
+    position: absolute;
+    width: 137.88px;
+    height: 29.53px;
+    left: 554px;
+    top: 12px;
+    font-family: 'Bitter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+
+list4 {
+    position: absolute;
+    width: 222.2px;
+    height: 29.53px;
+    left: 816px;
+    top: 12px;
+    font-family: 'Bitter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.circle {
+    clip-path: circle(38px); /* clip-path is a function to create objects like functions to draw */
+    position: absolute;
+    width: 81px;
+    height: 78px;
+    left: 41px;
+    top: 19px;
+    background: #4C64BA;
+}
+
+text_footer {
+    position: absolute;
+    width: 1224.93px;
+    height: 37.97px;
+    left: 60px;
+    top: 45px;
+    font-family: 'Bitter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+#integrations_vk {
+    position: relative;
+    margin-left: 1800px;
+    top: 45px;
+}
+
+#integrations_vk_in {
+    position: relative;
+    margin-left: 1808px;
+    top: 14px;
+}
+
+img {
+    position: absolute;
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    width: 1149px;
+    left: 505px;
+    top: 210px;
+}
+
+text_main {
+    position: absolute;
+    width: 1156.56px;
+    height: 88.59px;
+    left: 505px;
+    top: 786.91px;
+    font-family: 'Bitter', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+small_text_main {
+    position: absolute;
+    width: 101.41px;
+    height: 14.77px;
+    left: 505px;
+    top: 894.49px;
+    font-family: 'Bitter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+}
+
+news_name1 {
+    position: absolute;
+    width: 279.17px;
+    height: 59.06px;
+    left: 47.86px;
+    top: 203.55px;
+    font-family: 'Bitter', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+news_box1 {
+    position: absolute;
+    width: 341.84px;
+    height: 152.93px;
+    left: 44.44px;
+    top: 278.44px;
+    background: #CDCDCD;
+}
+
+news_box_text1 {
+    position: absolute;
+    width: 303.1px;
+    height: 125.51px;
+    left: 63.81px;
+    top: 292.15px;
+    font-family: 'Bitter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+}
+
+news_name2 {
+    position: absolute;
+    width: 266.64px;
+    height: 59.06px;
+    left: 47.86px;
+    top: 460.9px;
+    font-family: 'Bitter', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+news_box2 {
+    position: absolute;
+    width: 341.84px;
+    height: 152.93px;
+    left: 44.44px;
+    top: 535.78px;
+    background: #CDCDCD;
+}
+
+news_box_text2 {
+    position: absolute;
+    width: 303.1px;
+    height: 125.51px;
+    left: 63.81px;
+    top: 549.49px;
+    font-family: 'Bitter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+}
+
+news_name3 {
+    position: absolute;
+    width: 266.64px;
+    height: 59.06px;
+    left: 47.86px;
+    top: 702.42px;
+    font-family: 'Bitter', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+news_box3 {
+    position: absolute;
+    width: 341.84px;
+    height: 152.93px;
+    left: 44.44px;
+    top: 777.3px;
+    background: #CDCDCD;
+}
+
+news_box_text3 {
+    position: absolute;
+    width: 303.1px;
+    height: 125.51px;
+    left: 63.81px;
+    top: 791.02px;
+    font-family: 'Bitter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+}
