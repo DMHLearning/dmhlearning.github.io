@@ -1,4 +1,4 @@
-#include "iostream"
+ï»¿#include "iostream"
 #include "MathAPI.h"
 #include "windows.h"
 #include "string"
@@ -6,7 +6,7 @@
 #pragma execution_character_set("utf-8")
 
 /*
-	Compiled against Microsoft Visual Studio Community 2022 v17.3.3
+	Compiled against Microsoft VisualÂ Studio CommunityÂ 2022 v17.3.3
 	Made by Denis Kalashnikov (DMHDev)
 	Licensed under MIT License.
 */
@@ -18,7 +18,7 @@ void main() {
 	/* Parse all the required parameters; */
 	int a, b, c, d, k, m, e, f;
 
-	std::cout << "Ââåäèòå âñå íåîáõîäèìûå ïåðåìåííûå äëÿ ðåøåíèÿ çàäà÷è: \n";
+	std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²ÑÐµ Ð½ÐµÐ¾Ð±Ñ…Ð¾Ð´Ð¸Ð¼Ñ‹Ðµ Ð¿ÐµÑ€ÐµÐ¼ÐµÐ½Ð½Ñ‹Ðµ Ð´Ð»Ñ Ñ€ÐµÑˆÐµÐ½Ð¸Ñ Ð·Ð°Ð´Ð°Ñ‡Ð¸: \n";
 	std::cin >> a >> b >> c >> d >> k >> m >> e >> f;
 
 	/* Solve the problematic task using our custom MathAPI; See MathAPI.h and MathAPI.cpp for source code; */
@@ -29,5 +29,5 @@ void main() {
 
 	MULT(a, b, e, f); /* Note: this function resets the first two parameters since we're doing simple math, not memorized ones. Memorized ones is supported in MathAPI, but not implemented in this project. */
 
-	std::cout << "Çíà÷åíèå äðîáè: " << std::to_string(a) << "/" << std::to_string(b); // Show the answer.
+	std::cout << "Ð—Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð´Ñ€Ð¾Ð±Ð¸: " << std::to_string(a) << "/" << std::to_string(b); // Show the answer.
 }	
