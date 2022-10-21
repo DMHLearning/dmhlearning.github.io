@@ -33,3 +33,4 @@
 
 # Remove x64/Debug VS22 folder
 /x64
+/.vs
