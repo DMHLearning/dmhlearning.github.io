@@ -29,5 +29,7 @@ void main() {
 
 	MULT(a, b, e, f); /* Note: this function resets the first two parameters since we're doing simple math, not memorized ones. Memorized ones is supported in MathAPI, but not implemented in this project. */
 
+	SOKR(a, b);
+
 	std::cout << "Значение дроби: " << std::to_string(a) << "/" << std::to_string(b); // Show the answer.
 }	
