@@ -1,7 +1,9 @@
 #include "pt4.h"
 using namespace std;
 
-void RecSum(int iterator, double component, double& result) {
+double RecSum(const int& iterator, double component) {
+    /* Recurrent solution, much faster, less memory */
+    /*
     for (int i = 0; i < iterator; i++) {
         if (i == 0) {
             result = component;
@@ -9,14 +11,19 @@ void RecSum(int iterator, double component, double& result) {
 
         double temp = 1;
         if (i > 0) {
-            for (int j = 0; j < pow(2, i); j++) {
-                temp = temp * component;
-            }
+            temp = pow(component, pow(2, iterator-1);
 
             result = result + temp;
             temp = 1;
         }
     }
+    */
+    
+    /* Recurrent solution, less faster, more memory */
+    if (iterator == 0) 
+        return 0;
+    else 
+        return RecSum(iterator - 1, component) + pow(component, pow(2, iterator-1));
 }
 
 void Solve()
@@ -29,6 +36,6 @@ void Solve()
     GetN(n);
     GetD(x);
 
-    RecSum(n, x, s);
+    s = RecSum(n, x);
     pt << s;
 }
