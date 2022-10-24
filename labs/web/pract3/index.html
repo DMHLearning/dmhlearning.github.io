@@ -2,6 +2,9 @@
 <html>
 
 <link rel="stylesheet" href="style.css">
+<link href=".\libs\css\bootstrap.min.css" rel="stylesheet">
+<link href=".\css\navbar.css" rel="stylesheet">
+<link href=".\css\style.css" rel="stylesheet">
 
 <style>
     div {
@@ -12,10 +15,52 @@
     }
 </style>
 
+<!--
+    This code is by DMHDev (Denis Kalashnikov) and is part of the DMH's Learning Projects
+    Licensed under GNU General Public License v3.0 (https://www.gnu.org/licenses/gpl-3.0.html)
+    This work is open-source and can be found here: https://github.com/DMHLearning/dmhlearning.github.io/tree/main/labs/web/lab4
+-->
+
 <head>
     <title>Практическая работа «Подключение CSS к сайту»</title>
 </head>
 <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Eighth navbar example">
+        <div class="container">
+            <a class="navbar-brand" href="https://dmhlearning.github.io/">DMH's Learning Projects</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample07">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="https://dmhlearning.github.io/">Начальная страница</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/DMHLearning/dmhlearning.github.io/tree/main/labs/web/lab3">Исходники этой работы</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Список работ</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://dmhlearning.github.io/labs/web/lab2/frame.html">Лабораторная работа №2</a></li>
+                            <li><a class="dropdown-item" href="https://dmhlearning.github.io/labs/web/pract3/">Практическая работа №3</a></li>
+                            <li><a class="dropdown-item" href="https://dmhlearning.github.io/labs/web/lab3/">Лабораторная работа №3</a></li>
+                            <li><a class="dropdown-item" href="https://dmhlearning.github.io/labs/web/lab4/">Лабораторная работа №4</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Перейти к реальным проектам</a>
+                    </li>
+                </ul>
+                <form role="search">
+                    <input class="form-control" type="search" placeholder="Поиск" aria-label="Search">
+                </form>
+            </div>
+        </div>
+    </nav>
+
     <div id="headcruise"></div>
     <div style="color: red"> Практическая работа CSS </div>
     <div id="content">
@@ -47,6 +92,6 @@
             ветка Firefox 16 и будет отделена aurora-ветка Firefox 17.
         </p>
     </div>
-
+    <script src=".\libs\js\bootstrap.bundle.min.js"></script>
 </body>
 </html> 

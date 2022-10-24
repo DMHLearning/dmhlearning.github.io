@@ -6,9 +6,49 @@
         This work is open-source and can be found here: https://github.com/DMHLearning/dmhlearning.github.io/tree/main/labs/web/lab3
     -->
     <link rel="stylesheet" href="style.css">
+
+    <link href=".\libs\css\bootstrap.min.css" rel="stylesheet">
+    <link href=".\css\navbar.css" rel="stylesheet">
+    <link href=".\css\style.css" rel="stylesheet">
+
     <title>Лабораторная работа №3 - DMH's Learning Projects </title>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Eighth navbar example">
+        <div class="container">
+            <a class="navbar-brand" href="https://dmhlearning.github.io/">DMH's Learning Projects</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample07">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="https://dmhlearning.github.io/">Начальная страница</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/DMHLearning/dmhlearning.github.io/tree/main/labs/web/lab4">Исходники этой работы</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Список работ</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://dmhlearning.github.io/labs/web/lab2/frame.html">Лабораторная работа №2</a></li>
+                            <li><a class="dropdown-item" href="https://dmhlearning.github.io/labs/web/pract3/">Практическая работа №3</a></li>
+                            <li><a class="dropdown-item" href="https://dmhlearning.github.io/labs/web/lab3/">Лабораторная работа №3</a></li>
+                            <li><a class="dropdown-item" href="#">Лабораторная работа №4</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Перейти к реальным проектам</a>
+                    </li>
+                </ul>
+                <form role="search">
+                    <input class="form-control" type="search" placeholder="Поиск" aria-label="Search">
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div></div>
     <header> <text_header class="circle"></text_header> <text_header>Институт компьютерных наук и технологий</text_header> </header>
     <header2>
         <ul>
@@ -18,7 +58,7 @@
             <list4> <a href=""> Преподавателям </a></list4>
         </ul>
     </header2>
-    <nav></nav>
+    <aside_bg></aside_bg>
 
     <news_name1> Новый учебный год - новый факультет! </news_name1>
     <news_box1></news_box1>
@@ -59,5 +99,7 @@
             </svg>
         </div>
     </footer>
+
+    <script src=".\libs\js\bootstrap.bundle.min.js"></script>
 </body>
 </html>
