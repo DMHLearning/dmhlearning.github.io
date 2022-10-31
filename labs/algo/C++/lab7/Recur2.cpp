@@ -13,7 +13,7 @@ void main() {
 	int n{};
 
 	for (int i = 0; i < 5; i++) {
-		std::cout << "OUTPUT: ";
+		std::cout << "INPUT: ";
 		std::cin >> n;
 
 		std::cout << "OUTPUT: " << Fact2(n) << "\n";

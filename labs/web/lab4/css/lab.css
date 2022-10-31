@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+.maintxt {
+    position: relative;
+}
+
+.maintxt > img, .overlay-text {
+    position: absolute;
+}
+
+.main-font {
+    font-size: 160px;
+    font-family: "Merriweather";
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background: -webkit-linear-gradient(#a7faff, #2896d5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.secondary-font {
+    position: relative;
+    font-size: 48px;
+    text-align: center;
+    font-family: "Merriweather";
+    margin-top: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background: -webkit-linear-gradient(#2896d5, #a7faff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.third-font {
+    position: relative;
+    font-size: 100px;
+    text-align: center;
+    font-family: "Merriweather";
+    margin-top: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background: -webkit-linear-gradient(#2896d5, #a7faff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer-font {
+    position: relative;
+    font-size: 16px;
+    text-align: center;
+    font-family: "Merriweather";
+    margin-top: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background: -webkit-linear-gradient(#497a7d, #62a1a5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.octopus {
+    cursor: pointer;
+    shape-rendering: crispEdges;
+    fill: url(#MyGradient);
+}
+
+.first_layer {
+    position: relative;
+}
+
+.first_layer > img, .overlay-text-2 {
+    position: absolute
+}
+
+.second_layer {
+    position: relative;
+}
+
+.second_layer > img, .overlay-text-3 {
+    position: absolute
+}
+
+.third_layer {
+    position: relative;
+}
+
+.third_layer > img, .overlay-text-4 {
+    position: absolute
+}
+
+.tutorial-vr {
+    color: #2f2eb5;
+}

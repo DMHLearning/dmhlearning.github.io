@@ -13,7 +13,7 @@ void main() {
 
     std::cout << "INPUT: ";
     std::cin >> nA >> nB >> nC;
-    std::cout << "\n INPUT OF ARRAYS: \n";
+    std::cout << "\nINPUT OF ARRAYS: \n";
 
     int* a = new int[nA];
     int* b = new int[nB];
