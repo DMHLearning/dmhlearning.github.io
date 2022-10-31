@@ -1,4 +1,4 @@
-# Assets for the Lab4 project.
+п»ї# Assets for the Lab4 project.
 
 Most of the images are taken randomly all over the Internet, however, some authors may don't like to see their image used here. If you wish to remove an image, please create an issue. Thanks.
 
@@ -15,6 +15,6 @@ Fish Skeleton image is taken from one of the cards from Etsy (I have restricted 
 
 Whale Encounter VR scene is taken from theBlu game project by [Wevr and TransportVR](https://store.steampowered.com/app/451520/theBlu/) (Original web-frame is from YouTube, but the whole scene is from the game)
 
-Shanghai Aquarium image is taken by [7Toucans](https://7toucans.com/ru/что-делать-во-время-путешествий/asia/china/5346-shankhajskij-akvarium-shanghai-ocean-aquarium)
+Shanghai Aquarium image is taken by [7Toucans](https://7toucans.com/ru/С‡С‚Рѕ-РґРµР»Р°С‚СЊ-РІРѕ-РІСЂРµРјСЏ-РїСѓС‚РµС€РµСЃС‚РІРёР№/asia/china/5346-shankhajskij-akvarium-shanghai-ocean-aquarium)
 
 MARINE MAMMALS: CHAMPIONS OF THE DEEP scene is taken by [Saint Thomas Productions](https://saint-thomas.net/wp-content/uploads/Champions_10_41_49_07010-scaled.jpg)
