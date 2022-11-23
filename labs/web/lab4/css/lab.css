@@ -9,7 +9,7 @@
 }
 
 .main-font {
-    font-size: 120px;
+    font-size: 8vw;
     font-family: "Merriweather";
     margin-top: 20px;
     margin-left: auto;
@@ -21,22 +21,19 @@
 }
 
 .secondary-font {
-    position: relative;
-    font-size: 40px;
+    font-size: 3vw;
     text-align: center;
     font-family: "Merriweather";
     margin-top: 20%;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    background: -webkit-linear-gradient(#2896d5, #a7faff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #a7faff
 }
 
 .third-font {
     position: relative;
-    font-size: 80px;
+    font-size: 6vw;
     text-align: center;
     font-family: "Merriweather";
     margin-top: 25%;
@@ -57,9 +54,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    background: -webkit-linear-gradient(#497a7d, #62a1a5);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #22595c
 }
 
 .octopus {
